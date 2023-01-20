@@ -3,10 +3,9 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
 // array of questions for user
 const questions = [
-
-    .prompt([
 
         {
           type: 'input',
@@ -39,9 +38,11 @@ const questions = [
           name: 'testinst',
         },
             
-      ])
+      ];
 
-];
+
+
+
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -49,6 +50,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+
+    inquirer.prompt(questions).then(function(userInput) {
+
+    const markdownString = generateMarkdown(userInput)
 
 }
 
