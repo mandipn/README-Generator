@@ -31,6 +31,7 @@ const promptUser = () =>
                 type: 'list',
                 message: 'Please select the license you require from the below list',
                 name: 'license',
+                choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'Boost Software License 2.0', 'Mozilla Public License 2.0', 'None']
               },
               {
                 type: 'input',
@@ -44,7 +45,11 @@ const promptUser = () =>
               },
   ]);
 
+// const getlicenselogo(License) => {
 
+//   switch(License)
+
+// }
 
 promptUser()
   .then((answers) => writeFileAsync('readme.md', generateMarkdown(answers)))
