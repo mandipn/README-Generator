@@ -1,17 +1,19 @@
  
   
-  # Title of the project: a 
+  # Title of the project: sdsd 
 
-  ## Description of the project: a
+  ## - Description of the project: sdsd
 
-  ## Installation instructions of the project: a
+  ## - Installation instructions of the project: sdsd
   
-  ## Usage information of the project: a
+  ## - Usage information of the project: sdsd
 
-  ## License selected: Mozilla Public License 2.0
+  ## - License selected: MIT License
   
-  ## Contribution guidelines for your project: n
+  ## - Contribution guidelines for your project: sdsd
   
-  ## Test instructions of the project: n  
+  ## - Test instructions of the project: sdsd  
 
+  ## - Contact details in case of any queries for the project: sdsd  
 
+  ## - Contact details in case of any queries for the project: MIT License  
