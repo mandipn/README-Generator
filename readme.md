@@ -1,6 +1,6 @@
  
 
-  # Title of the project: rtrt 
+  # Title of the project: lklklkl 
 
   ## Table of Contents  
 
@@ -8,22 +8,25 @@
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributig](#Guidelines)
+* [Contributing](#Guidelines)
 * [Tests](#Testing)
-* [Contact Details](#Contacts)
+* [GitHub](#GitHub)
+* [Email](#Email)
   
-  ### Description rtrt
+  ### Description lklklk
 
-  ### Installation rtrt
+  ### Installation lklklk
   
-  ### Usage rtrt  
+  ### Usage lklklk  
 
-  ### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ### License [![License: MIT](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://opensource.org/licenses/bsl1-0)
   
-  ### Guidelines rtrt
+  ### Guidelines lklklk
   
-  ### Testing rtrt  
+  ### Testing lklklk  
 
-  ### Contacts rtrt  
+  ### GitHub lklklk  
+
+  ### Email lklklk
 
  

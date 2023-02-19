@@ -9,9 +9,10 @@ function generateMarkdown(data) {
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributig](#Guidelines)
+* [Contributing](#Guidelines)
 * [Tests](#Testing)
-* [Contact Details](#Contacts)
+* [GitHub](#GitHub)
+* [Email](#Email)
   
   ### Description ${data.describe}
 
@@ -25,7 +26,9 @@ function generateMarkdown(data) {
   
   ### Testing ${data.testinst}  
 
-  ### Contacts ${data.contact}  
+  ### GitHub ${data.github}  
+
+  ### Email ${data.email}
 
  `;
 }
