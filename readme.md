@@ -1,6 +1,6 @@
  
 
-  # Title of the project: xzxzxzx 
+  # Title of the project: Mandip Project 
 
   ## Table of Contents  
 
@@ -13,17 +13,17 @@
 * [GitHub](#GitHub)
 * [Email](#Email)
   
-  ### Description zxzxzxz
+  ### Description the best project
 
-  ### Installation zxzxzx
+  ### Installation step 1 - click on x, step 2 - click on y
   
-  ### Usage xzxzxzx  
+  ### Usage anyone is welcome to use this project  
 
   ### License [![License: MIT](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://opensource.org/licenses/bsl1-0)
   
-  ### Guidelines zxzxzxzx
+  ### Guidelines mandip contributed to this project
   
-  ### Testing zxzxzx  
+  ### Testing step 1 - click here, step 2 - click there  
 
   ### GitHub [mandipn](https://github.com/mandipn/)  
 
