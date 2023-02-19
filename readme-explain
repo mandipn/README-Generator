@@ -1,0 +1,28 @@
+# README-Generator by Mandip Nijor
+
+## Repository
+
+This application gives the user an opportunity to create a README file with the info they enter. This application uses node js.
+
+## Description
+
+This application gives the user an opportunity to create a README file with the info they enter. In the end, the application shows the user the README file with the info they enter.
+
+## Instructions
+
+1. Open the terminal and type: node index.js.
+2. Go through all the questions and enter the answer.
+3. For the license type question, select the appropriate license.
+4. Once done, you will see a console log message confirming submission.
+5. Open the readme.md file to view your responses and click on preview to view the preview of this file.
+6. Click on the license, github and email address links within the file.
+
+## Links
+
+Walkthrough Video link: https://bootcampspot.instructuremedia.com/embed/7e409a06-0e89-46fc-873a-cdf9e361fb0c 
+A sample README.md: https://github.com/mandipn/README-Generator/blob/main/readme.md 
+GitHub repository: https://github.com/mandipn/README-Generator/ 
+
+## License
+
+Licensed under MIT License - https://github.com/mandipn/Password-Generator/blob/main/LICENSE
