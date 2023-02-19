@@ -1,11 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-//let licenseselected = "";
-
 const writeToFile = util.promisify(fs.writeFile);
 const generateMarkdown = require ('./utils/generateMarkdown')
-
 const promptUser = () =>
   inquirer.prompt([
     {
@@ -52,45 +49,30 @@ const promptUser = () =>
   ])
 
   .then((answers) => {
-    // License Switch/ Case list
+    
     switch (answers.license) {
-        // case 'Apache License 2.0':
-        //     licenseselected = "(https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
-        //     break;
-        // case 'GNU General Public License v3.0':
-        //     licenseselected = "(https://img.shields.io/badge/License-GPLv3-blue.svg)";
-        //     break;
-        // case 'MIT License':
-        //     licenseselected = "(https://img.shields.io/badge/License-MIT-yellow.svg)";
-        //     break;
-        // case 'Boost Software License 1.0':
-        //     licenseselected = "(https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
-        //     break;
-        // case 'Mozilla Public License 2.0':
-        //     licenseselected = "(https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
-        //     break;
 
+        case 'Apache License 2.0':
+        licenseselected = "[![License: Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        break;  
+        case 'GNU General Public License v3.0':
+        licenseselected = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+        break;      
         case 'MIT License':
-          licenseselected = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-                    break;
-                case 'Apache License 2.0':
-                  licenseselected = "[![License: Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-                    break;
-                case 'GNU General Public License v3.0':
-                  licenseselected = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-                    break;
-                    case 'Mozilla Public License 2.0':
-                  licenseselected = "[![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
-                      break;
+        licenseselected = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+        break;
+        case 'Boost Software License 1.0':
+        licenseselected = "[![License: MIT](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://opensource.org/licenses/bsl1-0)";
+        break;     
+        case 'Mozilla Public License 2.0':
+        licenseselected = "[![License: Mozilla Public License 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+        break;
         default:
-            licenseselected = "Check your License!";
+        licenseselected = "Check your License!";
     };
-            writeToFile('README-GEN.md', generateMarkdown(answers))
+  writeToFile('README.md', generateMarkdown(answers))
   .then(() => console.log('Successfully wrote to README file'))
   .catch((err) => console.error(err))
     });
 
 promptUser()
-
-  //.then((answers) => writeFileAsync('readme.md', generateMarkdown(answers)))
-  

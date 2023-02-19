@@ -1,19 +1,29 @@
  
+
+  # Title of the project: rtrt 
+
+  ## Table of Contents  
+
+* [Project description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributig](#Guidelines)
+* [Tests](#Testing)
+* [Contact Details](#Contacts)
   
-  # Title of the project: sdsd 
+  ### Description rtrt
 
-  ## - Description of the project: sdsd
-
-  ## - Installation instructions of the project: sdsd
+  ### Installation rtrt
   
-  ## - Usage information of the project: sdsd
+  ### Usage rtrt  
 
-  ## - License selected: MIT License
+  ### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## - Contribution guidelines for your project: sdsd
+  ### Guidelines rtrt
   
-  ## - Test instructions of the project: sdsd  
+  ### Testing rtrt  
 
-  ## - Contact details in case of any queries for the project: sdsd  
+  ### Contacts rtrt  
 
-  ## - Contact details in case of any queries for the project: MIT License  
+ 
