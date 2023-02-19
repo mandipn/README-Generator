@@ -1,6 +1,6 @@
  
 
-  # Title of the project: lklklkl 
+  # Title of the project: xzxzxzx 
 
   ## Table of Contents  
 
@@ -13,20 +13,20 @@
 * [GitHub](#GitHub)
 * [Email](#Email)
   
-  ### Description lklklk
+  ### Description zxzxzxz
 
-  ### Installation lklklk
+  ### Installation zxzxzx
   
-  ### Usage lklklk  
+  ### Usage xzxzxzx  
 
   ### License [![License: MIT](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://opensource.org/licenses/bsl1-0)
   
-  ### Guidelines lklklk
+  ### Guidelines zxzxzxzx
   
-  ### Testing lklklk  
+  ### Testing zxzxzx  
 
-  ### GitHub lklklk  
+  ### GitHub [mandipn](https://github.com/mandipn/)  
 
-  ### Email lklklk
+  ### Email [mandip.nijor@gmail.com](mailto:mandip.nijor@gmail.com)  
 
  

@@ -26,9 +26,9 @@ function generateMarkdown(data) {
   
   ### Testing ${data.testinst}  
 
-  ### GitHub ${data.github}  
+  ### GitHub [${data.github}](https://github.com/${data.github}/)  
 
-  ### Email ${data.email}
+  ### Email [${data.email}](mailto:${data.email})  
 
  `;
 }
